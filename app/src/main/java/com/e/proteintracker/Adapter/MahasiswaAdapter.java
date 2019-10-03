@@ -44,13 +44,14 @@ public class MahasiswaAdapter extends RecyclerView.Adapter<MahasiswaAdapter.View
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder{
-        private TextView txtNim, txtNama, txtNoHp, imgx;
+        private TextView txtNim, txtNama, txtNoHp,  Imgx;
 
         public ViewHolder(View view){
             super(view);
             txtNama = view.findViewById(R.id.txtNama2);
             txtNim = view.findViewById(R.id.txtNim);
             txtNoHp = view.findViewById(R.id.txtNoHp);
+            Imgx = view.findViewById(R.id.img);
         }
 
     }
